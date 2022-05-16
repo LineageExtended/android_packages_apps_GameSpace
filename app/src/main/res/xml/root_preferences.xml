@@ -71,6 +71,14 @@
             android:summary="@string/game_props_summary"
             android:defaultValue="false" />
 
+        <com.lineageextended.support.preference.CustomSeekBarPreference
+            android:key="gamespace_menu_opacity"
+            android:title="@string/gamespace_menu_opacity_title"
+            android:defaultValue="95"
+            android:max="100"
+            app:min="0"
+            app:units="%" />
+
     </PreferenceCategory>
 
     <io.chaldeaprjkt.gamespace.preferences.AppListPreferences

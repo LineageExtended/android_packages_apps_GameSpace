@@ -71,4 +71,6 @@
     <!-- Game Props -->
     <string name="game_props_title">Use GameProps</string>
     <string name="game_props_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+
+    <string name="gamespace_menu_opacity_title">Overlay menu opacity level</string>
 </resources>
