@@ -60,6 +60,13 @@
             android:key="gamespace_stay_awake"
             android:summary="@string/stay_awake_summary"
             android:title="@string/stay_awake_title" />
+        
+        <com.lineageextended.support.preference.SystemSettingSwitchPreference
+            android:key="persist.plus.games_props"
+            android:title="@string/game_props_title"
+            android:summary="@string/game_props_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <io.chaldeaprjkt.gamespace.preferences.AppListPreferences
